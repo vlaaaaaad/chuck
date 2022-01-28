@@ -1,0 +1,16 @@
+h2 {
+    color: #1C1C39;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.CategoriesSection {
+    margin-top: 50px;
+    padding: 0 calc(10% - 10px);
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}

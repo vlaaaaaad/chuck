@@ -1,0 +1,21 @@
+.Category {
+    width: 170px;
+    height: 57px;
+    background-color: white;
+    border: 0;
+    border-radius: 20px;
+    color: #1C1C39;
+    font: inherit;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: lowercase;
+    transition: 0.25s;
+    filter: drop-shadow(0px 22px 80px rgba(72, 70, 106, 0.07)) drop-shadow(0px 2.75474px 10.0172px rgba(72, 70, 106, 0.035));
+    margin: 10px;
+}
+
+.Category:hover {
+    color: white;
+    background-color: #422ED4;
+    cursor: pointer;
+}

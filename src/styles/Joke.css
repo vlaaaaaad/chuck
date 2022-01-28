@@ -1,0 +1,27 @@
+.JokeContainer {
+    background-color: #422ED4;
+    position: relative;
+    margin: 165px 10% 0 10%;
+    padding: 25px;
+    box-sizing: border-box;
+    min-height: 160px;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 600;
+}
+
+.JokeContainer::before {
+    content: "";
+    background:url("../chuck.png");
+    background-size: cover;
+    display: block;
+    position: absolute;
+    float: right;
+    width: 120px;
+    height: 260px;
+    top: -160px;
+    right: 25px;
+    z-index: -1;
+}
