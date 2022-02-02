@@ -2,7 +2,6 @@ import "../styles/CategoriesList.css";
 import Category from "./Category";
 
 function CategoriesList({categories, setActiveJoke}) {
-
     return (
         <div>
             <h2>Categories</h2>
